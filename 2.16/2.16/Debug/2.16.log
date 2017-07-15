@@ -1,0 +1,4 @@
+﻿  main.c
+e:\datastructhomework\2.16\2.16\main.c(50): warning C4715: “deleteAndInsertSub”: 不是所有的控件路径都返回值
+  2.16.vcxproj -> E:\DataStructHomework\2.16\Debug\2.16.exe
+  2.16.vcxproj -> E:\DataStructHomework\2.16\Debug\2.16.pdb (Full PDB)

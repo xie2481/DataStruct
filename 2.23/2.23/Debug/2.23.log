@@ -1,0 +1,14 @@
+﻿  main.c
+e:\datastructhomework\2.23\2.23\main.c(16): warning C4133: “=”: 从“LinkedList *”到“LinekdList *”的类型不兼容
+e:\datastructhomework\2.23\2.23\main.c(28): warning C4133: “=”: 从“LinkedList *”到“LinekdList *”的类型不兼容
+e:\datastructhomework\2.23\2.23\main.c(39): warning C4133: “=”: 从“LinkedList *”到“LinekdList *”的类型不兼容
+e:\datastructhomework\2.23\2.23\main.c(44): warning C4133: “=”: 从“LinkedList *”到“LinekdList *”的类型不兼容
+e:\datastructhomework\2.23\2.23\main.c(46): warning C4133: “=”: 从“LinekdList *”到“LinkedList *”的类型不兼容
+e:\datastructhomework\2.23\2.23\main.c(47): warning C4133: “=”: 从“LinekdList *”到“LinkedList *”的类型不兼容
+e:\datastructhomework\2.23\2.23\main.c(50): warning C4133: “=”: 从“LinkedList *”到“LinekdList *”的类型不兼容
+e:\datastructhomework\2.23\2.23\main.c(53): warning C4133: “=”: 从“LinkedList *”到“LinekdList *”的类型不兼容
+e:\datastructhomework\2.23\2.23\main.c(33): warning C4133: “初始化”: 从“LinekdList *”到“LinkedList *”的类型不兼容
+e:\datastructhomework\2.23\2.23\main.c(63): warning C4133: “=”: 从“LinekdList *”到“LinkedList *”的类型不兼容
+e:\datastructhomework\2.23\2.23\main.c(60): warning C4133: “初始化”: 从“LinekdList *”到“LinkedList *”的类型不兼容
+  2.23.vcxproj -> E:\DataStructHomework\2.23\Debug\2.23.exe
+  2.23.vcxproj -> E:\DataStructHomework\2.23\Debug\2.23.pdb (Full PDB)
