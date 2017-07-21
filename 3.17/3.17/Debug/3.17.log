@@ -1,0 +1,4 @@
+﻿  main.c
+e:\datastructhomework\3.17\3.17\main.c(34): warning C4013: “gets”未定义；假设外部返回 int
+  3.17.vcxproj -> E:\DataStructHomework\3.17\Debug\3.17.exe
+  3.17.vcxproj -> E:\DataStructHomework\3.17\Debug\3.17.pdb (Full PDB)
