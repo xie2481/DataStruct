@@ -1,0 +1,4 @@
+﻿  main.c
+e:\datastructhomework\4.28\4.28\main.c(18): warning C4267: “=”: 从“size_t”转换到“char”，可能丢失数据
+  4.28.vcxproj -> E:\DataStructHomework\4.28\Debug\4.28.exe
+  4.28.vcxproj -> E:\DataStructHomework\4.28\Debug\4.28.pdb (Full PDB)
