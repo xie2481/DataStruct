@@ -1,0 +1,8 @@
+﻿  main.c
+e:\datastructhomework\5.19\5.19\main.c(28): warning C4047: “=”:“int”与“int *”的间接级别不同
+e:\datastructhomework\5.19\5.19\main.c(6): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+e:\datastructhomework\5.19\5.19\main.c(12): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+  5.19.vcxproj -> E:\DataStructHomework\5.19\Debug\5.19.exe
+  5.19.vcxproj -> E:\DataStructHomework\5.19\Debug\5.19.pdb (Full PDB)
