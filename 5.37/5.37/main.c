@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-typedef enum{ATOM,LINK}DataType;
+typedef enum { ATOM, LINK }DataType;
 typedef struct GLNode {
 	DataType tag;
 	union {
@@ -80,6 +80,20 @@ void creatGList(GList* gl, char* s) {
 	else
 		gl->ptr.tp = NULL;
 }
+void deleteAtom(GList* gl,char x) {
+	if (gl->tag == ATOM) {
+		if (gl->data == x) {//直接置为空表
+			gl->data = ' ';
+		}
+	}
+	else {
+		while (gl) {
+			if (gl->ptr.hp)
+				deleteAtom(gl->ptr.hp, x);
+			gl = gl->ptr.tp;
+		}
+	}
+}
 void printGList(GList* gl) {
 	if (gl->tag == ATOM) {
 		printf("%c", gl->data);
@@ -95,7 +109,7 @@ void printGList(GList* gl) {
 }
 int main() {
 	GList* gl = init();
-	creatGList(gl, "((3),4)");
+	creatGList(gl, "((a),b,(a))");
+	deleteAtom(gl, 'a');
 	printGList(gl);
-	return 0;
 }

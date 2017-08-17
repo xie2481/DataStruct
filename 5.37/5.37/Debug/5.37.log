@@ -1,0 +1,7 @@
+﻿  main.c
+f:\datastructure\5.37\5.37\main.c(55): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  g:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(93): note: 参见“strcat”的声明
+f:\datastructure\5.37\5.37\main.c(56): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  g:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(93): note: 参见“strcat”的声明
+  5.37.vcxproj -> F:\DataStructure\5.37\Debug\5.37.exe
+  5.37.vcxproj -> F:\DataStructure\5.37\Debug\5.37.pdb (Partial PDB)
