@@ -1,0 +1,6 @@
+﻿  main.c
+f:\datastructure\6.41\6.41\main.c(11): warning C4018: “<=”: 有符号/无符号不匹配
+f:\datastructure\6.41\6.41\main.c(48): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  g:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(93): note: 参见“strcat”的声明
+  6.41.vcxproj -> F:\DataStructure\6.41\Debug\6.41.exe
+  6.41.vcxproj -> F:\DataStructure\6.41\Debug\6.41.pdb (Partial PDB)

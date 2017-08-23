@@ -1,0 +1,5 @@
+﻿  main.c
+f:\datastructure\6.38\6.38\main.c(21): warning C4018: “<=”: 有符号/无符号不匹配
+f:\datastructure\6.38\6.38\main.c(19): warning C4716: “init”: 必须返回一个值
+  6.38.vcxproj -> F:\DataStructure\6.38\Debug\6.38.exe
+  6.38.vcxproj -> F:\DataStructure\6.38\Debug\6.38.pdb (Partial PDB)
