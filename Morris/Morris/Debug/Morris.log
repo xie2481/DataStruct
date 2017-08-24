@@ -1,0 +1,4 @@
+﻿  main.c
+f:\datastructure\morris\morris\main.c(11): warning C4018: “<=”: 有符号/无符号不匹配
+  Morris.vcxproj -> F:\DataStructure\Morris\Debug\Morris.exe
+  Morris.vcxproj -> F:\DataStructure\Morris\Debug\Morris.pdb (Partial PDB)
