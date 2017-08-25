@@ -1,0 +1,4 @@
+﻿  main.c
+f:\datastructure\6.46\6.46\main.c(14): warning C4018: “<=”: 有符号/无符号不匹配
+  6.46.vcxproj -> F:\DataStructure\6.46\Debug\6.46.exe
+  6.46.vcxproj -> F:\DataStructure\6.46\Debug\6.46.pdb (Partial PDB)
