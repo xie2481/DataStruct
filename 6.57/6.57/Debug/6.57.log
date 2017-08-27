@@ -1,0 +1,6 @@
+﻿  main.c
+f:\datastructure\6.57\6.57\main.c(15): warning C4018: “<=”: 有符号/无符号不匹配
+f:\datastructure\6.57\6.57\main.c(125): warning C4047: “==”:“ThreadTreeNode *”与“int”的间接级别不同
+f:\datastructure\6.57\6.57\main.c(127): warning C4047: “==”:“ThreadTreeNode *”与“int”的间接级别不同
+  6.57.vcxproj -> F:\DataStructure\6.57\Debug\6.57.exe
+  6.57.vcxproj -> F:\DataStructure\6.57\Debug\6.57.pdb (Partial PDB)
