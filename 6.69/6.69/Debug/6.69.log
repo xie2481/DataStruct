@@ -1,0 +1,4 @@
+﻿  main.c
+f:\leetcode\6.69\6.69\main.c(12): warning C4018: “<=”: 有符号/无符号不匹配
+  6.69.vcxproj -> F:\LeetCode\6.69\Debug\6.69.exe
+  6.69.vcxproj -> F:\LeetCode\6.69\Debug\6.69.pdb (Partial PDB)
