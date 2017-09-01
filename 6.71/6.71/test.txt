@@ -1,0 +1,8 @@
+^A
+AB
+AC
+AD
+BE
+BF
+CG
+^^
