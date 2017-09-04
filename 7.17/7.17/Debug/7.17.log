@@ -1,0 +1,5 @@
+﻿  main.c
+f:\datastructure\7.17\7.17\main.c(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  g:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+  7.17.vcxproj -> F:\DataStructure\7.17\Debug\7.17.exe
+  7.17.vcxproj -> F:\DataStructure\7.17\Debug\7.17.pdb (Partial PDB)
