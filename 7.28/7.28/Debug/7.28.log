@@ -1,0 +1,7 @@
+﻿  main.c
+f:\datastructure\7.28\7.28\main.c(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  g:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+f:\datastructure\7.28\7.28\main.c(65): warning C4133: “函数”: 从“char *”到“int *”的类型不兼容
+f:\datastructure\7.28\7.28\main.c(62): warning C4133: “初始化”: 从“int *”到“char *”的类型不兼容
+  7.28.vcxproj -> F:\DataStructure\7.28\Debug\7.28.exe
+  7.28.vcxproj -> F:\DataStructure\7.28\Debug\7.28.pdb (Partial PDB)
