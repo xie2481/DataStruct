@@ -97,10 +97,7 @@ void dfsTree(TreeNode* t) {
 		TreeNode* p = t->brother;
 		printf("%c", t->data);
 		dfsTree(t->child);
-		while (p) {
-			dfsTree(p);
-			p = p->brother;
-		}
+		dfsTree(t->brother);
 	}
 }
 int main() {
