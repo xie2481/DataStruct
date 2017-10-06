@@ -58,14 +58,28 @@ int* getIndegree(Graph* g) {
 void topSort(Graph* g) {
 	int* indegree = getIndegree(g);
 	int* stack = (int*)malloc(sizeof(int)*g->vexnum);
+	int* op = (int*)malloc(sizeof(int)*g->vexnum);
+	int topop = -1;
 	int top = -1;
 	int i = 0;
 	for (i = 0; i < g->vexnum; i++)
 		if (!indegree[i])
 			stack[++top] = i;
+	int count = 0;//记录打印数字的个数
 	while (top != -1) {
 		int i = stack[top--];
-		printf("%c", g->graph[i].data);
+		if (g->graph[i].data >= '0'&&g->graph[i].data <= '9') {
+			printf("%c", g->graph[i].data);
+			count++;
+			if (count == 2) {
+				printf("%c", g->graph[op[topop--]].data);
+				count = 0;
+			}
+		}
+		else {
+			count = 0;
+			op[++topop] = i;
+		}
 		AdjNode* p = g->graph[i].firstNode;
 		while (p) {
 			if (--indegree[p->index] == 0)
@@ -73,6 +87,8 @@ void topSort(Graph* g) {
 			p = p->next;
 		}
 	}
+	while (topop != -1)
+		printf("%c", g->graph[op[topop--]].data);
 }
 int main() {
 	Graph* g = creat();
